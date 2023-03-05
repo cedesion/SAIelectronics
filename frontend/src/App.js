@@ -1,10 +1,10 @@
 import './App.css';
+import Home from './pages/Home';
 
 function App() {
   return (
     <>
-      <h1>Raghav Doda</h1>
-      <h2>hi</h2>
+      <Home/>
     </>
   );
 }
