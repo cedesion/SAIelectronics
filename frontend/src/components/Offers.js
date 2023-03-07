@@ -13,7 +13,7 @@ import { Pagination, Navigation } from "swiper";
 const style = 
 {
     width:"80%",
-    height:"600px",
+    height:"70%",
     marginLeft:"10%"
 }
 

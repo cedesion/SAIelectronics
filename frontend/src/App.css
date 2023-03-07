@@ -12,7 +12,12 @@ body {
   font-family: "Poppins";
 }
 header {
-  background: #fff;
+  /* background: #fff; */
+  background-color: rgb(133, 101, 133);
+  /* position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1; */
 }
 header .container {
   max-width: 1400px;
@@ -36,6 +41,7 @@ header a {
 nav {
   display: flex;
   align-items: center;
+ 
 }
 nav span {
   margin-left: 10px;
@@ -47,8 +53,8 @@ nav a{
 }
 
 .icon{
-  background: #fff;
-  color: var(--primary);
+  background: rgb(133, 101, 133);
+  color: white;
   padding: 0px;
   font-family: "Poppins";
   cursor: pointer;
@@ -63,15 +69,18 @@ nav a{
     border-style:  ridge;
     border-radius: 0.75rem;
     padding-left: 1%;
+    background-color: white;
+    border: none;
 }
 .searchBar
 {
-    width: 40%;
+    width: 90%;
     font-size: 1.25rem;
     padding: 0.5% 1%;
     border-radius: 2rem;
     border: 0;
     margin-left: 3%;
+    outline: none;
 }
 .searchIcon
 {
@@ -81,6 +90,7 @@ nav a{
 .swiper {
   width: 100%;
   height: 100%;
+  margin-top: 2%;
 }
 
 .swiper-slide {
@@ -102,6 +112,50 @@ nav a{
 }
 
 .swiper {
-  margin-left: auto;
+  margin-left: auto; 
   margin-right: auto;
+}
+
+.swiper img {
+  opacity: 1;
+}
+
+img:hover{
+  opacity: 0.7;
+}
+
+.Product
+{
+  margin-top: 5%;
+  justify-content: center;
+}
+
+.Card 
+{
+  margin: 1%;
+  bottom: solid;
+  border-radius: 200%;
+  min-height: 50vh;
+  display: column;
+}
+/* .card */
+.Card a img{
+   size: 10%;
+   width: 130%;
+   height: 80%;
+   border-radius: 10%;
+   padding: 5%;
+}
+
+.pickProduct
+{
+  background-color: rgb(133, 101, 133);
+  padding: 2%;  
+}
+
+.Card-title
+{
+  margin-top: auto;
+  justify-content: center;
+  color: #fff;
 }
