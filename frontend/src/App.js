@@ -4,6 +4,7 @@ import {BrowserRouter , Routes , Route  } from 'react-router-dom';
 // pages
 import Home from './pages/Home';
 import Services from './pages/Services';
+import Companies from './pages/filtered';
 
 function App() {
   return (
@@ -19,10 +20,10 @@ function App() {
                             path='/services'
                             element= {<Services/>}
                         />
-                        {/* <Route
+                        <Route
                             path='/companies'
                             element= {<Companies/>}
-                        /> */}
+                        />
                     </Routes>
                 </div>
             </BrowserRouter>
