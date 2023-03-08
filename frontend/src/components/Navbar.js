@@ -13,7 +13,7 @@ const  Navbar = () =>{
                 <nav>
                         <div>
                             <a href="/" style={{color: "white"}}>Companies</a>
-                            <a href="/" style={{color: "white"}}>Services</a>
+                            <a href="/services" style={{color: "white"}}>Services</a>
                             <a href="/" className="icon"><CgProfile/></a>
                         </div>
                     
