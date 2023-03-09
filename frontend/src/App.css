@@ -25,12 +25,16 @@ header .container {
   justify-content: space-between;
 }
 .containertitle{
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
   font-size: 30px;
   color:#fff;
   font-weight: 500;
   margin-right: 0px;
   margin-left: 0px;
   padding: none;
+}
+#profile{
+  font-size: 60%;
 }
 header a {
   color: #333;
@@ -48,6 +52,7 @@ nav span {
 }
 
 nav a{
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
     margin-left: 20px;
 }
 
@@ -62,36 +67,43 @@ nav a{
 }
 
 /* searchBar */
-
-.search{
-    width: 40%;
-    border-style:  ridge;
-    border-radius: 1.5rem;
-    padding-left: 0.5%;
-    padding-bottom: 0.6%;
-    background-color: white;
+.search
+{
     border: none;
-    margin-left: 1%;
-    font-size: 70%;
+    width: 40%;
+    border-radius: 1.75rem;
+    background-color: lightgray;
+    padding-bottom: 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
 }
-.searchhereicon{
-  display: inline-flex;
-  padding-top: 3%;
-  margin:0;
-}
-.searchBar
+
+.searchbar
 {
     width: 90%;
-    font-size: 1.05rem;
-    font-weight:400;
-    padding: 0% 0%;
-    border-radius: 1.25 rem;
-    border: 0;
-    margin-top:0;
+    height: 100%;
     margin-bottom: 0;
-    margin-left: 3%;
+    border: none;
+    border-radius:  1.75rem 0 0 1.75rem ;
+    padding-left: 5%;
+    padding: 1% 5%;
+    font-size: 110%;
+    border: none;
     outline: none;
+    font-weight: 350;
 }
+
+.searchicon
+{
+  height: 100%;
+  width: 4%;
+  font-size: 120%;
+  margin-left: 1.5%;
+  margin-top: 0;
+  margin-bottom: 0%;
+  background-color: lightgray;
+  border: none;
+}
+
 .navend{
   padding-bottom:5%;
 }
